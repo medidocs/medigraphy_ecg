@@ -16,6 +16,11 @@ jobs:
           distribution: temurin
           java-version: 11
 
+      - name: Clear Gradle cache
+        run: |
+          rm -rf ~/.gradle/caches
+          rm -rf ~/.gradle/wrapper
+
       - name: Grant permission
         run: chmod +x gradlew
 
