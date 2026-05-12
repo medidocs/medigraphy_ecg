@@ -1,0 +1,18 @@
+<paths>
+    <external-path
+        name="Reports"
+        path="ECG" />
+    <external-path
+        name="images"
+        path="Pictures" />
+    <external-path
+        name="external_files"
+        path="." />
+    <external-path
+        name="files_root"
+        path="Android/data/${applicationId}" />
+    <root-path
+        name="external_files"
+        path="/storage/" />
+</paths>
+

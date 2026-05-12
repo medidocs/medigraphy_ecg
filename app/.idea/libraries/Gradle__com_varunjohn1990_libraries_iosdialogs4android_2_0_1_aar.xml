@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.varunjohn1990.libraries:iosdialogs4android:2.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c88d80019509fce704f99f556885c69c/jetified-iosdialogs4android-2.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c88d80019509fce704f99f556885c69c/jetified-iosdialogs4android-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c88d80019509fce704f99f556885c69c/jetified-iosdialogs4android-2.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.varunjohn1990.libraries/iosdialogs4android/2.0.1/999539c07832eb4b85261e2f8120fe7322447f04/iosdialogs4android-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.varunjohn1990.libraries/iosdialogs4android/2.0.1/1da31ba0f997267b5840c11aa87a4d5a92d0dd6a/iosdialogs4android-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

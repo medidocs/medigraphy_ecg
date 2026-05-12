@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/chkSimultaneous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simultaneous Report"
+        android:onClick="onCheckboxClicked"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:id="@+id/chkSequential"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sequential Report"
+        android:onClick="onCheckboxClicked"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:id="@+id/chk62Report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6x2 Report"
+        android:onClick="onCheckboxClicked"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:id="@+id/chk61Report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6x1 Report"
+        android:onClick="onCheckboxClicked"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp" />
+
+</LinearLayout>

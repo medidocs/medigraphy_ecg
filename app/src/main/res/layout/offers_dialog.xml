@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/user_list_bg">
+
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you sure you want to pay "
+            android:textSize="@dimen/_18sdp"
+            android:textColor="#000000"
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:id="@+id/txtRs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/txtTitle"/>
+
+
+        <LinearLayout
+            android:layout_below="@+id/txtRs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_10sdp">
+
+            <Button
+                android:id="@+id/btnYes"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:text="Yes"
+                android:textSize="@dimen/_15sdp"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/new_main_activity_button_background"
+                android:textColor="#FFFFFF"
+              />
+            <Button
+                android:id="@+id/btnNo"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:text="No"
+                android:textSize="@dimen/_15sdp"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/new_main_activity_button_background"
+                android:textColor="#FFFFFF"
+              />
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size">15sp</dimen>
+	<dimen name="font_size_xhigh">12dp</dimen>
+	<dimen name="font_size_xxhigh">10dp</dimen>
+	<dimen name="font_size_xxxhigh">6dp</dimen>
+	<dimen name="bt_listsize">210dp</dimen>
+    <dimen name="sp_30">23sp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="backgrond_edittext_radius_corner_5dp">5dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+
+
+</resources>

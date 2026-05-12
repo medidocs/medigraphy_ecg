@@ -1,0 +1,182 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_previous"
+        android:enabled="true"
+        android:icon="@drawable/back_ecg"
+        android:orderInCategory="2"
+        android:title="previous "
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_next"
+        android:enabled="true"
+        android:icon="@drawable/forward_ecg"
+        android:orderInCategory="3"
+        android:title="Next"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/battery"
+        android:enabled="true"
+        android:orderInCategory="1"
+        android:title="battery"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_device_detail"
+        android:orderInCategory="4"
+        android:title="Device Details"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/item_mode"
+        android:enabled="true"
+        android:orderInCategory="5"
+        android:title="Mode"
+        android:visible="true">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item_test"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:title="Test "
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/item_ecg"
+                    android:checked="true"
+                    android:enabled="true"
+                    android:title="ECG"
+                    android:visible="true" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_filter"
+        android:enabled="true"
+        android:orderInCategory="6"
+        android:title="Filter "
+        android:visible="true">
+
+        <menu>
+            <group
+                android:id="@+id/grp_filter"
+                android:checkableBehavior="single"
+                android:visible="true">
+
+                <item
+                    android:id="@+id/item_0_150"
+                    android:checked="false"
+                    android:title="0 to 150 Hz"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/item_5_40"
+                    android:checked="true"
+                    android:title="5 to 40 Hz (Default)"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/item_0_40"
+                    android:checked="false"
+                    android:title="0 to 40 Hz"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/item_5_25"
+                    android:checked="false"
+                    android:title="5 to 25 Hz"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/item_0_25"
+                    android:checked="false"
+                    android:title="0 to 25 Hz"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/item_filter_off"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:title="Filter OFF"
+                    android:visible="true" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_gain"
+        android:enabled="true"
+        android:orderInCategory="7"
+        android:title="Gain"
+        android:visible="true">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/gain1"
+                    android:checked="false"
+                    android:title="1 (2.5mm/mV)" />
+                <item
+                    android:id="@+id/gain2"
+                    android:checked="false"
+                    android:title="2 (5mm/mv)" />
+                <item
+                    android:id="@+id/gain3"
+                    android:checked="false"
+                    android:title="3 (7.5mm/mv)" />
+                <item
+                    android:id="@+id/gain4"
+                    android:checked="true"
+                    android:title="4 (10mm/mv - Default)" />
+                <item
+                    android:id="@+id/gain6"
+                    android:checked="false"
+                    android:title="6 (15mm/mv)" />
+                <item
+                    android:id="@+id/gain8"
+                    android:checked="false"
+                    android:title="8 (20mm/mv)" />
+                <item
+                    android:id="@+id/gain12"
+                    android:checked="false"
+                    android:title="12 (30mm/mv)" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_ACQ_mode"
+        android:orderInCategory="9"
+        android:title="ACQ Mode"
+        android:visible="true">
+        <menu>
+            <group
+                android:id="@+id/grp_acq_mode"
+                android:checkableBehavior="single"
+                android:visible="true">
+
+                <item
+                    android:id="@+id/item_Auto"
+                    android:checked="false"
+                    android:title="Auto Mode"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/item_manual"
+                    android:checked="false"
+                    android:enabled="true"
+                    android:title="Manual Mode"
+                    android:visible="true" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_patient_detail"
+        android:orderInCategory="10"
+        android:title="Patient Details"
+        android:visible="false" />
+</menu>

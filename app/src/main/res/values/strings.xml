@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ECG Connect</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_start_up">ECG Connect</string>
+    <string name="title_activity_start_up_setting">Setting</string>
+    <string name="title_activity_generate_report">Generate_report</string>
+    <string name="title_activity_registretion">Registretion</string>
+    <string name="title_activity_filechooser">Filechooser</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_bluetooth_connect">Bluetooth_connect</string>
+    <string name="title_activity_paintview">Paintview</string>
+    <string name="title_activity_paint_view">PaintView</string>
+    <string name="add_10_credit">Add 10 credits at INR 899 only</string>
+    <string name="add_20_credit">Add 20 credits at INR 1650 only</string>
+    <string name="add_50_credit">Add 50 credits at INR 2100 only</string>
+    <string name="options">Select Logo</string>
+    <string name="popup_gallary">Select photo from Gallery</string>
+    <string name="popup_camera">Capture photo from Camera</string>
+    <string name="notification_activity">NotificationView</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="terms1">I have read and accepted all</string>
+    <string name="user_agreement">Terms &amp; Conditions</string>
+    <string name="accept_tnc">I have read and accepted all <font color='#03A9F4'>Terms &amp; Conditions</font></string>
+    <string name="menu_item_exit">Exit</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_edit">Edit</string>
+    <string name="menu_item_delete">Delete</string>
+
+</resources>

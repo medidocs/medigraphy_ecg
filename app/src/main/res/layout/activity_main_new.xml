@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_main_activity_backgroud_gradient">
+
+        <ImageView
+            android:id="@+id/new_logo_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_290sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/new_medi_home_page_logo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/new_logo_main_activity"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_minus30sdp"
+            android:layout_centerHorizontal="true">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true">
+
+                    <Button
+                        android:id="@+id/new_main_activity_record_test_btn"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/new_main_activity_button_background"
+                        android:elevation="10dp"
+                        android:padding="@dimen/dp_10"
+                        android:text="Record Test"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/sp_30" />
+
+                    <Button
+                        android:id="@+id/new_main_activity_view_report_btn"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/new_main_activity_record_test_btn"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/new_main_activity_button_background"
+                        android:elevation="10dp"
+                        android:padding="@dimen/dp_10"
+                        android:text="Load File"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/sp_30"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/new_main_activity_select_lead_btn"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/view_button"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/new_main_activity_button_background"
+                        android:elevation="10dp"
+                        android:padding="@dimen/dp_10"
+                        android:text="Select Leads"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/sp_30"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/view_button"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/new_main_activity_view_report_btn"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/new_main_activity_button_background"
+                        android:elevation="10dp"
+                        android:padding="@dimen/dp_10"
+                        android:text="View Reports"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/sp_30" />
+
+
+                </RelativeLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/view_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/activity_viewfilechooser"
+        android:visibility="gone" />
+
+</RelativeLayout>
+
+

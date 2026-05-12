@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/user_list_bg">
+
+        <TextView
+            android:id="@+id/btnReview"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:background="@drawable/review_report"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            tools:ignore="MissingConstraints"
+            android:textColor="#000000"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/btnReview"/>
+
+        <TextView
+            android:id="@+id/txtReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:textColor="#8A8888"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_alignParentBottom="true"
+            android:text="Not review"
+            android:layout_marginBottom="@dimen/_5sdp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

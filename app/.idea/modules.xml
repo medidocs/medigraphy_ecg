@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="ecg-app-front-end-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1285006750/ecg-app-front-end-master.iml" filepath="$PROJECT_DIR$/.idea/modules/-1285006750/ecg-app-front-end-master.iml" group="ecg-app-front-end-master" />
+    </modules>
+  </component>
+</project>

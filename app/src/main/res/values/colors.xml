@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="select_items">#Cc527a</color>
+    <color name="not_review">#FB0404</color>
+    <color name="review">#09BA10</color>
+    <color name="color_light_grey">#C7C4C4</color>
+    <color name="color_status_bar">#4F081A</color>
+    <color name="link">#03A9F4</color>
+    <color name="list_divider">#979797</color>
+    <color name="list_item_selected_state">#F4F6F6</color>
+    <color name="list_item_normal_state">#FFFFFF</color>
+
+</resources>
